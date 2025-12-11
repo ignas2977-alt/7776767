@@ -19,7 +19,7 @@ const simulatedAlt = 35; //height in meters
 
 // Default values for the configuration file (do not touch this!)
 const defaultConfig = {
-	GPS_PORT: '',                       // Connection port for GPS receiver (e.g.: 'COM1' or ('/dev/ttyACM0') / if empty then GPS off
+	GPS_PORT: 'COM3',                       // Connection port for GPS receiver (e.g.: 'COM1' or ('/dev/ttyACM0') / if empty then GPS off
     GPS_BAUDRATE: 4800,                 // Baud rate for GPS receiver (e.g.: 4800)        
     GPS_HEIGHT: '',                     // Enter fixed altitude in m (e.g.: '160' ) or leave blank for altitude via GPS signal 
 	UpdateMapPos: false,				// Set the value true or false for updating the FM DX server map
